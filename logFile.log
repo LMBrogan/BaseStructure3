@@ -1,0 +1,26 @@
+03:57:04 [main] INFO  c.d.b.BaseStructureApplication - Starting BaseStructureApplication on DESKTOP-9DFT7Q5 with PID 41752 (D:\develop4\ideaworkspaceNew\BaseStructure3\target\classes started by dell in D:\develop4\ideaworkspaceNew\BaseStructure3)
+03:57:04 [main] INFO  c.d.b.BaseStructureApplication - No active profile set, falling back to default profiles: default
+03:57:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+03:57:06 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+03:57:06 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+03:57:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+03:57:06 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:57:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1434 ms
+03:57:06 [main] INFO  c.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:57:06 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+03:57:06 [main] INFO  c.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:57:07 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+03:57:07 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+03:57:07 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+03:57:07 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+03:57:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+03:57:07 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+03:57:07 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+03:57:07 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+03:57:07 [main] INFO  c.d.b.BaseStructureApplication - Started BaseStructureApplication in 3.302 seconds (JVM running for 5.014)
+03:57:18 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:57:18 [http-nio-9001-exec-1] INFO  o.s.w.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:57:18 [http-nio-9001-exec-1] INFO  o.s.w.servlet.DispatcherServlet - Completed initialization in 9 ms
+03:57:50 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+03:57:50 [SpringContextShutdownHook] INFO  c.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:57:50 [SpringContextShutdownHook] INFO  c.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

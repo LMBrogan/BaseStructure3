@@ -1,0 +1,32 @@
+server:
+  port: 9001
+#数据库连接信息
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+#配置Mybatis-Plus
+mybatis-plus:
+  #配置扫描xml
+  mapper-locations: classpath:mapper/*Mapper.xml
+  #配置实体扫描类
+  type-aliases-package: com.dailywear.base_structure.common.entity
+  #逻辑删除配置
+  global-config:
+    sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+    logic-delete-value: 1
+    logic-not-delete-value: 0
+    db-column-underline: false
+#配置日志
+logging:
+  #此处存放日志的路径
+  path:
+    config: classpath:logback.xml
+  #指定不同目录下的日志的级别
+  level:
+    com:
+      dailywear:
+        base_structure:
+          mapper: INFO
